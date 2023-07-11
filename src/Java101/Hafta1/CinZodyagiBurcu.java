@@ -1,4 +1,4 @@
-package Java101;
+package Java101.Hafta1;
 import java.util.Scanner;
 public class CinZodyagiBurcu {
     public static void main(String[] args) {
