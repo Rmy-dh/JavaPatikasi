@@ -1,4 +1,4 @@
-package Java101.Hafta1;
+package Java101;
 import java.util.Scanner;
 public class UcVeDortBolunebilme {
     public static void main(String[] args) {
