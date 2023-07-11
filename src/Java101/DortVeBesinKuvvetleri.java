@@ -1,6 +1,6 @@
 package Java101;
 import java.util.Scanner;
-public class DortVeBesinKuvvetleri {
+public class  DortVeBesinKuvvetleri {
     public static void main(String[] args) {
         // Girilen sayıya kadar olan 4 ve 5'in kuvvetlerini bulma.
         int n;
