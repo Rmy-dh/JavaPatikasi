@@ -2,7 +2,7 @@ package Java101;
 import java.util.Scanner;
 public class MinMaxValue {
     public static void main(String[] args) {
-        //Kullanıcının istediği sayıda kullanıcıdan sayı alıp bu sayıların en büyüğü ve en küçüğünü ekrana yazdırma.
+        //Kullanıcının istediği sayıda sayıyı kullanıcıdan  alıp bu sayıların en büyüğü ve en küçüğünü ekrana yazdırma.
         int n,number,max=1,min=1;
         Scanner input=new Scanner(System.in);
         System.out.print("Kaç tane sayı gireceksiniz: ");
