@@ -6,7 +6,7 @@ public class ArtikYilHesabi {
         Scanner input=new Scanner(System.in);
         System.out.print("Yıl Giriniz: ");
         year=input.nextInt();
-        //Artık yıl hesabında sayı 100'ü tam bölüyor ise 400 ile de tam olarak bölüne bilir.
+
         if ((year%100==0)&& (year%400==0)) {
             System.out.print(year+ " bir atık yıldır.");
 
