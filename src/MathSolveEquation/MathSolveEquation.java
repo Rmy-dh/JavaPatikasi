@@ -85,7 +85,7 @@ public class MathSolveEquation {
         Scanner input=new Scanner(System.in);
         System.out.print("Enter sentence: ");
         String sample=input.nextLine();
-        solveSample(sample);
+        solveSample(sample);                               //math equation is taken
 
     }
 }

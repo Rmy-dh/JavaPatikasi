@@ -38,7 +38,12 @@ public class PalindromeSentence {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         System.out.print("Enter your sentence: ");
-        String sentence=input.nextLine();
-        System.out.print(isPalindrome(sentence));
+        String sentence=input.nextLine();                            //sentence is taken
+        if(isPalindrome(sentence)){
+            System.out.print(sentence+" is a palindrome sentence.");
+        }else{
+            System.out.println(sentence+" is not a palindrome sentence.");
+        }
+
     }
 }

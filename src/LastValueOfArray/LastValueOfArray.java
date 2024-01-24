@@ -14,6 +14,10 @@ public class LastValueOfArray {
             if(i==0 ){
                 answer=list[i];
             }else if(list[i]==list[i-1]){
+                //int[] list={1,2,3,5,6,(8-7),Integer.MAX_VALUE}
+                //int[] list ={1,1,2,3,(6-5),Integer.MAX_VALUE,Integer.MAX_VALUE}
+                //...
+                //int[] list={1,1,1,1,Integer.MAX_VALUE,Integer.MAX_VALUE,Integer.MAX_VALUE}
                 list[i]=Integer.MAX_VALUE;
                 list[i-1]=Integer.MAX_VALUE;
             }else{

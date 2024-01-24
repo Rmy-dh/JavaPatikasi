@@ -22,6 +22,7 @@ public class DistinctCharacterSentence {
            for(int j=i;j<sentence.length();j++){
                if(sentence.charAt(i)==sentence.charAt(j)){
                    if (checkCondition(newSentence,sentence.charAt(i))){
+                       // if newSentence does not have the character ,the character is added to newSentence
                        newSentence+=sentence.charAt(i);
                    }
                }
